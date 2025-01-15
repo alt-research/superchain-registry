@@ -365,6 +365,20 @@
     chain = "sepolia"
 
 [[chains]]
+  name = "HashKey Chain Testnet"
+  identifier = "sepolia/hashkeychain"
+  chain_id = 133
+  rpc = ["https://hashkeychain-testnet.alt.technology"]
+  explorers = ["https://hashkeychain-testnet-explorer.alt.technology"]
+  superchain_level = 0
+  governed_by_optimism = false
+  data_availability_type = "eth-da"
+  gas_paying_token = "0x31BdaC8E4B897E470B70eBe286F94245baa793C2"
+  [chains.parent]
+    type = "L2"
+    chain = "sepolia"
+
+[[chains]]
   name = "Ink Sepolia"
   identifier = "sepolia/ink"
   chain_id = 763373

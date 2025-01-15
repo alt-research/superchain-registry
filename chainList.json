@@ -506,6 +506,25 @@
     }
   },
   {
+    "name": "HashKey Chain Testnet",
+    "identifier": "sepolia/hashkeychain",
+    "chainId": 133,
+    "rpc": [
+      "https://hashkeychain-testnet.alt.technology"
+    ],
+    "explorers": [
+      "https://hashkeychain-testnet-explorer.alt.technology"
+    ],
+    "superchainLevel": 0,
+    "governedByOptimism": false,
+    "dataAvailabilityType": "eth-da",
+    "parent": {
+      "type": "L2",
+      "chain": "sepolia"
+    },
+    "gasPayingToken": "0x31BdaC8E4B897E470B70eBe286F94245baa793C2"
+  },
+  {
     "name": "Ink Sepolia",
     "identifier": "sepolia/ink",
     "chainId": 763373,
